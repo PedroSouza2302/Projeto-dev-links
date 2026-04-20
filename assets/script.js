@@ -4,9 +4,9 @@ function toggleMode() {
   html.classList.toggle("light")
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Avatar-Light.png")
+    img.setAttribute("src", "./assets/avatar-Light.png")
   } else {
-    img.setAttribute("src", "./assets/Avatar.png")
+    img.setAttribute("src", "./assets/avatar.png")
   }
   if (html.classList.contains("light")) {
     img.setAttribute("alt", "LOGO AMPERI ELETRONICS")
